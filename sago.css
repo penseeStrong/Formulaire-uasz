@@ -1,0 +1,104 @@
+header {
+    background-color: blanche; /* Couleur de fond du haut de la page */
+    color: #fff; /* Couleur du texte */
+    padding: 10px; /* Espacement intérieur du haut de la page */
+    display: flex;
+    align-items: center;
+}
+
+#logo, #photo{
+    max-height: 100px; /* Largeur maximale du logo (ajustez selon vos besoins) */
+    margin-right: 20px; /* Marge à droite du logo pour l'espacement */
+}
+
+#photo {
+    flex: 1; /* La photo prend tout l'espace restant à droite du logo */
+    max-width: 100%; /* La photo ne dépasse pas la largeur de son conteneur */
+}
+
+.header-titre h2{
+    position: relative;
+  
+    text-align: center;
+    color: #2bad0b;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    color: #2bad0b;
+}
+
+/* copie 1*/
+
+.body-content {
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+.container {
+    position: relative;
+    max-width: Auto;
+    background-color:rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #555;
+    display: inline-block;
+    width: 30%;
+}
+
+
+input, textarea {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #396edf;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d0799;
+}
+
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
